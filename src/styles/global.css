@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Researcher';
+  src: url('./fonts/researcher-researcher-regular-400.ttf');
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-weight: 400;
+  --color: #3b3636;
+  --background-color: #ffffff;
+  --primary-color: #50D890;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

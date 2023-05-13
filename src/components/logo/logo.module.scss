@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      display: none;
+    }
+  }
+}
+
+.title {
+  color: var(--color);
+  font-family: 'Researcher';
+  font-size: 1rem;
+  font-weight: 300;
+
+  & span {
+    color: var(--primary-color);
+    font-size: large;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}

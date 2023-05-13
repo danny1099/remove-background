@@ -1,0 +1,16 @@
+.header {
+  align-items: center;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+  left: 0;
+  padding: 2rem 4rem;
+  position: sticky;
+  top: 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 1.5rem;
+  }
+}

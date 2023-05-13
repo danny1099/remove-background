@@ -1,0 +1,30 @@
+.footer {
+  align-items: center;
+  background-color: var(--background-color);
+  bottom: 0;
+  color: #7a7a7a;
+  display: flex;
+  flex-direction: row;
+  font-size: smaller;
+  justify-content: space-between;
+  left: 0;
+  padding: 1rem 4rem;
+  width: 100%;
+
+  & span {
+    font-family: 'Researcher';
+    color: var(--color);
+    font-size: small;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 1rem 2rem;
+  }
+}
+
+.developed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
